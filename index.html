@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn3.iconfinder.com/data/icons/luchesa-vol-9/128/Calculator-256.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator-field">
+            <div class="social">
+                <span><a href="https://github.com/yavuzim" target="_blank">
+                        <img id="1" class="social-img"
+                            src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-256.png" alt="">
+                    </a>
+                </span>
+                <span>
+                    <a href="https://www.hackerrank.com/yavuz_imer133" target="_blank">
+                        <img id="3" class="social-img"
+                            src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/160_Hackerrank_logo_logos-256.png"
+                            alt="">
+                    </a>
+                </span>
+                <span>
+                    <a href="https://www.linkedin.com/in/kemal-yavuz-imer-078342193/" target="_blank">
+                        <img id="2" class="social-img"
+                            src="https://cdn2.iconfinder.com/data/icons/social-18/512/LinkedIn-256.png" alt="">
+                    </a>
+                </span>
+                <span>
+                    <a href="https://www.instagram.com/yavuzz.imer/" target="_blank">
+                        <img id="3" class="social-img"
+                            src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-256.png"
+                            alt="">
+                    </a>
+                </span>
+            </div>
+            <div class="input-field">
+                <span>
+                    <input type="text" class="txt">
+                </span>
+            </div>
+            <div class="buttons">
+                <button class="btn" onclick="tikla(this)" value="CE">
+                   CE
+                </button>
+                <button class="btn" onclick="full_delete(this)" value="C">
+                    C
+                </button>
+                <button class="btn btn-delete" onclick="txt_delete(this)" value="x">
+                    <img src="https://cdn1.iconfinder.com/data/icons/feather-2/24/delete-256.png" alt="">
+                </button>
+                <button class="btn" onclick="process(this)" value="-">
+                   -
+                </button>
+                <button class="btn" onclick="process(this)" value="+">
+                   +
+                </button>
+                <button class="btn" onclick="process(this)" value="x">
+                    x
+                </button>
+                <button class="btn" onclick="add(this)" value="7">
+                 7
+                </button>
+                <button class="btn" onclick="add(this)" value="8">
+                    8
+                </button>
+                <button class="btn" onclick="add(this)" value="9">
+                   9
+                </button>
+                <button class="btn" onclick="add(this)" value="4">
+                   4
+                </button>
+                <button class="btn" onclick="add(this)" value="5">
+                   5
+                </button>
+                <button class="btn" onclick="add(this)" value="6">
+                   6
+                </button>
+                <button class="btn" onclick="add(this)" value="1">
+                  1
+                </button>
+                <button class="btn" onclick="add(this)" value="2">
+                   2
+                </button>
+                <button class="btn" onclick="add(this)" value="3">
+                  3
+                </button>
+                <button class="btn" onclick="process(this)" value="=">
+                   =
+                </button>
+                <button class="btn" onclick="add(this)" value="0">
+                   0
+                </button>
+                <button class="btn" onclick="process(this)" value="/">
+                   /
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
