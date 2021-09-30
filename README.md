@@ -1,3 +1,3 @@
-https://yavuzim.github.io/js-calculatorapp/index.html
+https://yvzcalculatorapp.netlify.app/
 
 <img src="./img/template.png">
