@@ -9,6 +9,11 @@ const txt_delete = (e) => {
     arr.splice(arr.length - 1, 1)
     txt()
 }
+const all_delete = (e) => {
+    document.querySelector(".cal-write").innerHTML = ""
+    processValue.splice(0)
+    full_delete(e)
+}
 const full_delete = (e) => {
     arr.splice(0)
     txt()
@@ -73,6 +78,8 @@ const process = (e) => {
         }
         operator = "/"
     }
+    document.querySelector(".cal-write").innerHTML = conclusion
+    document.querySelector(".cal-write").innerHTML += operator
     if (e.value === "=") {
         console.log("=====");
         if (operator === "+") conclusion = processValue[0] + setValue
